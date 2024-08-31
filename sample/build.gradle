@@ -49,6 +49,7 @@ android {
         htmlReport true
         checkReleaseBuilds true
     }
+    namespace 'dmax.dialog.sample'
 }
 
 dependencies {
