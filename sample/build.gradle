@@ -12,8 +12,10 @@ android {
     compileSdkVersion COMPILE_SDK_VERSION
 
     defaultConfig {
-        versionName SAMPLE_VERSION_NAME
-        targetSdkVersion 27
+        minSdkVersion MIN_SDK_VERSION
+        targetSdkVersion TARGET_SDK_VERSION
+        versionCode LIBRARY_VERSION_CODE
+        versionName LIBRARY_VERSION_NAME
     }
 
     flavorDimensions "minApi"
