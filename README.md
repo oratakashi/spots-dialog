@@ -19,10 +19,10 @@ Android AlertDialog with moving spots progress indicator packed as android libra
 The library available in maven jcenter repository. You can get it using:
 ```groovy
 repositories {
-    jcenter()
+    maven { url 'https://jitpack.io' }
 }
 dependencies {
-    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+    implementation 'com.github.oratakashi:spots-dialog:1.1'
 }
 ```
 Javadoc and sources package [classifiers][3] available too.
